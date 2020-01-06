@@ -29,6 +29,6 @@ ENV BITNAMI_APP_NAME="mariadb" \
 
 EXPOSE 3306
 
-USER 1001
+USER root
 ENTRYPOINT [ "/entrypoint.sh" ]
 CMD [ "/run.sh" ]
